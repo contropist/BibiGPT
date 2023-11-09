@@ -1,16 +1,20 @@
-# 🤖 BibiGPT: 1-Click AI Summary for Audio/Video & Chat with Learning Content [https://bibigpt.co](https://b.jimmylv.cn/)
+> This repo is only for v1 and supports Bilibil and YouTube!
 
-🎉 Effortlessly summarize YouTube videos with our AI-driven Video Summarizer. Also works for Podcasts, Twitter, Meetings, Lectures, Tiktok videos, and more. Discover a smarter way to learn with ChatGPT, your best AI-powered study companion! (formerly BiliGPT) "stream-saving artifact & class representative".
+# 🤖 BibiGPT: one-Click AI Summary for Audio/Video & Chat with Learning Content [https://bibigpt.co](https://bibigpt.co)
+
+🎉 Effortlessly summarize YouTube and Bilibili videos with our AI-driven Video Summarizer. It also works for Podcasts, Twitter, Meetings, Lectures, Tiktok videos, and more. Discover a more brilliant way to learn with ChatGPT, your best AI-powered study companion! (formerly BiliGPT) "stream-saving artifact & class representative".
 
 Alternate address: https://b.jimmylv.cn
+Browser extension: https://bibigpt.co/extension
 
 ---
 
-## 🤖 BibiGPT · AI 音视频内容一键总结 & 对话 [https://bibigpt.co](https://b.jimmylv.cn/)
+## 🤖 BibiGPT · AI 音视频内容一键总结 & 对话 [https://bibigpt.co](https://bibigpt.co)
 
-🎉 ChatGPT AI 音视频一键总结，轻松学习哔哩哔哩丨YouTube丨本地视频丨本地音频丨播客丨小红书丨抖音丨会议丨讲座丨网页等任意内容。BibiGPT 助力于成为最好的 AI 学习助理，支持免费试用！(原 BiliGPT 省流神器 & AI 课代表)（支持 iOS 快捷指令 & 微信服务号）。
+🎉 ChatGPT AI 音视频一键总结，轻松学习哔哩哔哩丨 YouTube 丨本地视频丨本地音频丨播客丨小红书丨抖音丨会议丨讲座丨网页等任意内容。BibiGPT 助力于成为最好的 AI 学习助理，支持免费试用！(原 BiliGPT 省流神器 & AI 课代表)（支持 iOS 快捷指令 & 微信服务号）。
 
 备用地址：https://b.jimmylv.cn
+浏览器插件: https://bibigpt.co/extension
 
 ---
 
@@ -40,6 +44,8 @@ After cloning the repo, go to [OpenAI](https://beta.openai.com/account/api-keys)
 
 Then, run the application in the command line and it will be available at `http://localhost:3000`.
 
+[specific running procedure is described in this document - Chinese version](./deploy-ch.md)
+
 ```bash
 npm run dev
 ```
@@ -49,6 +55,15 @@ npm run dev
 Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples)
 
 Setup the env variables, by following the `./example.env` file.
+
+## Support Docker
+
+https://github.com/JimmyLv/BibiGPT/pull/133
+
+```shell
+# make sure setup .env file firstly
+docker compose up -d
+```
 
 ## Support -> Contact Me
 
